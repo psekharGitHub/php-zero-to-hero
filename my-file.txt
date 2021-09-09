@@ -1,0 +1,2 @@
+This is a file to test File Read-Write Operation using PHP.
+Thanks and Regards.

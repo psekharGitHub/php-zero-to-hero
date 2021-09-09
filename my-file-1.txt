@@ -1,0 +1,1 @@
+This is written explicitely by fwrite()This is begin appended to the fileThis is begin appended to the file
