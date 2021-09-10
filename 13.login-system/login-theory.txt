@@ -1,0 +1,57 @@
+password hashing
+-----------------
+ - $hash = password_hash($password, PASSWORD_DEFAULT)
+ - password_verify($password, $hash)
+=======
+Set up
+---------------
+ - xaamp
+ - apache server
+ - mysql database
+
+Require vs Include
+------------------------
+1. Require throws Fatal error when there is an error and stops execution
+2. Include throws a Warning but continues the execution
+
+Read File
+-------------------------
+- readfile('filepath/filename') - can be also used to print output of an html file
+- read/ write functions
+    - fopen(), fread(), filesize(), fclose()
+    - fgetc() - reads files character by character
+    - fgets() - reads file line by line.
+              - returns false when reaches end of file
+    - fwrite("<filename>", "w") - write. overwrite a file.
+    - fwrite("<filename>", "a") - append. append at the end.
+
+    note: file pointer is updated with each character for fgetc and line for fgets
+
+    Cookies
+    -----------------
+    - text file used to store information of the user for future reference.
+    - saves not so sensitive data like category, choices etc.
+
+    Sessio
+    ------------------
+    - manage information across different pages
+    - works like a login page. Remembers an user on his visit and stores the info during the session lasts.
+
+    Access Modifiers
+    -------------------
+     - functions are public by default
+     - variables are not defined public by default
+     - public - can be accessed from anywhere
+     - private - can only be accessed from within the class
+     - protected - can be accessed from withing the class and from derived class
+
+    Inheritance
+    --------------------
+    - public, protected can be inherited
+    - private cannot be inherited
+    - private members can be accessed using public functions
+
+    DB operations
+    --------------------
+    - similar like insert, just different queries for each operations
+>>>>>>> e5fb635a1439053adcfd4d0c8c7078d1e98e6a2f
